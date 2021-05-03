@@ -154,8 +154,9 @@ export class ProvisionForm extends Component {
                                 </option>
                             )}</Form.Control>
                     </Form.Group>
-
-                    {/* <Form.Group controlId="Operation">
+                    
+                    {/* Çoklu işlem seçimi için yapıldı ancak sql e post edemedim çoklu olunca.
+                    <Form.Group controlId="Operation">
                         <Multipledll oprt={this.state.oprt}/>
                         <Select isMulti options={optionss} onChange={this.handleChange}
                             closeMenuOnSelect={false}

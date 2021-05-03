@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Select from 'react-select';
 
-
+//Çoklu işlem seçimi için yapıldı ancak provisionform.js de farklı şekilde kullandım gerek kalmadı şuanlık.
 class Multipledll extends Component{
     constructor(props){
         super(props);
